@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "tg-thef"
+version = "0.1.0"
+description = ""
+authors = ["Sthefany Martins"]
+readme = "README.md"
+packages = [{ include = "tg_thef" }]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+jupyter = "^1.0.0"
+geobr = "^0.2.0"
+psycopg2-binary = "^2.9.9"
+sqlalchemy = "^2.0.21"
+python-slugify = "^8.0.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
